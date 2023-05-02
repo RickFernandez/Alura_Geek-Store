@@ -1,0 +1,29 @@
+@import '../../../assets/variables';
+
+.container {
+  height: 8rem;
+  display: flex;
+  padding: 1.6rem;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    width: 16rem;
+  }
+
+  button {
+    width: 14rem;
+    padding: 1.6rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: $dark_blue;
+    background-color: $white;
+    border: 2px solid $dark_blue;
+  }
+
+  a {
+    img {
+      width: 2rem;
+    }
+  }
+}

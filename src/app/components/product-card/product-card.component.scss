@@ -1,0 +1,38 @@
+@import '../../../assets/variables';
+
+.card {
+  gap: 8px;
+  border: none;
+  max-width: 18rem;
+  height: 30rem;
+
+  .product-image {
+    height: 18rem;
+  }
+
+  .card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+      .product-name {
+        font-size: 14px;
+      }
+  
+      .product-price {
+        margin-top: 5px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+
+    a {
+      margin-top: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      color: $dark_blue;
+      text-decoration: none;
+    }
+} 
